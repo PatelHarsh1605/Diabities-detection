@@ -15,7 +15,6 @@ env/
 .venv/
 
 # ── Dataset (too large for GitHub) ───────────────────────────────────────────
-*.csv
 
 # ── Jupyter Notebooks ─────────────────────────────────────────────────────────
 .ipynb_checkpoints/
