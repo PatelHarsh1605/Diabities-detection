@@ -1,0 +1,47 @@
+{
+  "model_name": "Random Forest",
+  "threshold": 0.56,
+  "feature_names": [
+    "gender",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "smoking_history",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level",
+    "metabolic_risk",
+    "age_bmi",
+    "vascular_risk"
+  ],
+  "metrics": {
+    "accuracy": 0.9379,
+    "recall": 0.8535,
+    "precision": 0.5939,
+    "f1": 0.7005,
+    "roc_auc": 0.9774
+  },
+  "all_results": {
+    "Logistic Regression": {
+      "accuracy": 0.8883,
+      "recall": 0.8882,
+      "precision": 0.4249,
+      "f1": 0.5748,
+      "roc_auc": 0.9624
+    },
+    "Random Forest": {
+      "accuracy": 0.9196,
+      "recall": 0.8888,
+      "precision": 0.5159,
+      "f1": 0.6528,
+      "roc_auc": 0.9774
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.972,
+      "recall": 0.69,
+      "precision": 0.9726,
+      "f1": 0.8073,
+      "roc_auc": 0.9793
+    }
+  }
+}
